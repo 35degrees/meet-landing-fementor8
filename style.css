@@ -333,12 +333,19 @@ footer {
 }
 
 @media (max-width: 680px) {
+	.header-logo {
+		margin-top: 0.5rem;
+	}
 	.hero-image-left img,
 	.hero-image-right img {
 		max-width: 300px;
 	}
 	.hero {
 		margin-bottom: 1.2rem;
+	}
+	.hero-main-content,
+	.secondary-text-content {
+		max-width: 350px;
 	}
 	section.photos {
 		display: grid;
